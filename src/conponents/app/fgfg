@@ -1,0 +1,73 @@
+import React from 'react';
+
+import AppHeader from '../app-header';
+
+const App = () => {
+    return (
+    <AppHeader/>
+    )
+}
+
+export default App;
+
+
+//////
+
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import App from './conponents/app/';
+
+// class SocialMedia extends Component{
+ 
+//    state = { 
+//         count: 1
+//     }
+        
+//     // this.Share = this.Share.bind(this);
+
+//     Share = () =>{
+//         // console.log("dhdh");
+//     // console.log(this.state.count++);
+//         this.setState(state =>({
+//             count: ++state.count
+    
+//         }))
+//    }
+
+
+
+//    render(){
+//     const {link, text, social} = this.props;
+//     const {count} = this.state;
+//     return(
+//         <p>
+//             <button onClick={this.Share}>+1</button>
+//             <a href={link}>{text}</a>
+//             <span>{social}</span>
+//             <span>{count}</span>
+//         </p>
+//     );
+//    }
+// }
+
+
+// const All = () =>{
+//     return (
+//         <>
+//         <SocialMedia link="https://www.w3schools.com" text="click me" social="Facebook"/>
+//         <SocialMedia link="https://www.w3schools.com" text="click me" social="Twitter"/>
+//         <SocialMedia link="https://www.w3schools.com" text="click me" social="Instagram"/>
+//         </>
+    
+//     )
+
+//     }
+
+// ReactDOM.render(
+//     <All/>,
+//     document.getElementById('root')
+
+// );
+
+
+<PostListItem label={item.label} className={item.important}/>
